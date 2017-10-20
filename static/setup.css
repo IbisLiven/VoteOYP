@@ -1,0 +1,18 @@
+.button {
+	background-color: lightsteelblue;
+	cursor: pointer;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 5px;
+}
+
+.candidate:hover {
+	background-color: lightcoral;
+}
+
+#candidates {
+	display: flex;
+}
+#candidatesContainer {
+	display: flex;
+}

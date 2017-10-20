@@ -1,0 +1,18 @@
+{
+	"positions": [
+		"premier",
+		"leader of the opposition",
+		"registrar and finance minister",
+		"minister of individual discipleship",
+		"house leader"
+	],
+	"systems": {
+		"unranked": [
+			"fptp"
+		],
+		"ranked": [
+		]
+	},
+	"ballot_wait_time": 3000,
+	"elections-dir": ".tmp"
+}

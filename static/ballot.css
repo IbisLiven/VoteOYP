@@ -1,0 +1,50 @@
+html {
+	overflow: hidden;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 1rem;
+	font-size: 9vw;
+	line-height: 9vw;
+}
+h2 {
+	margin: 1rem;
+	font-size: 2.5vw;
+	font-style: italic;
+	font-weight: 400;
+}
+.button {
+	display : block;
+	width: 80vw;
+	margin: 2vh auto;
+	border-radius: 1rem;
+	background: #ffd6bb;
+}
+.button > input{ /* INPUT STYLES */
+	visibility: hidden;
+	position: absolute;
+}
+.button > input + span{ /* SPAN STYLES */
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	padding:  3vh 0;
+	font-size: 3em;
+}
+.button > input:checked + span{ /* (RADIO CHECKED) SPAN STYLES */
+	background-color: #55dd66;
+}
+#submit {
+	display: block;
+	margin: 1em auto;
+	padding: 5vh 15vh;
+	font-size: 3em;
+	background: #ccc;
+	border: 0 none;
+	border-radius: 10px;
+	cursor: pointer;
+}
